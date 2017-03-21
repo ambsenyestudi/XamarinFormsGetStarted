@@ -5,9 +5,10 @@
              x:Class="GetStarted.MainPage">
     <StackLayout VerticalOptions="Center" 
            HorizontalOptions="Center" >
-        <Label Text="Welcome to Xamarin Forms!"/>
+        <Label Text="{Binding TextoAplicacion}"/>
         <Label x:Name="counterTxt"/>
         <Button Text="Counter" Clicked="Button_Clicked"/>
+        <ListView ItemsSource="{Binding Registros}"/>
     </StackLayout>
 
 
