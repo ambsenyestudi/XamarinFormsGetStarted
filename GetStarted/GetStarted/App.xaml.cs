@@ -12,8 +12,7 @@ namespace GetStarted
         public App()
         {
             InitializeComponent();
-
-
+            
             MainPage = new GetStarted.MainPage();
         }
 
