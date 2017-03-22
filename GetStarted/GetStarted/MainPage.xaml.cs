@@ -30,6 +30,7 @@ namespace GetStarted
             NClicks++;
             counterTxt.Text = NClicks + " " + _frase;
             Registros.Add(_registro + " " + NClicks);
+            //Esto no funciona
             TextoAplicacion = "Estate quieto";
         }
     }
